@@ -5,7 +5,7 @@ const port = 3000;
 
 app.use(cors());
 
-pp.get('/', (req, res) => {
+app.get('/', (req, res) => {
     res.json('Hello World!')
 })
 
